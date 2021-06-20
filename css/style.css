@@ -489,7 +489,7 @@ form textarea {
   width: 50%;
   outline: none;
   background-color: #f4fafe;
-  border: 1px solid #f4fafe;
+  border: 1px solid;
   border-radius: 20px;
   display: inline-block;
   -webkit-box-sizing: border-box;
