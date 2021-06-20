@@ -31,7 +31,7 @@ input,
 textarea {
   font-size: 1.6rem;
   font-weight: 400;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Work Sans', sans-serif;
   color: var(--main-color);
   background-color: var(--white);
   line-height: 1.6;
@@ -486,7 +486,7 @@ form input,
 form textarea {
   margin: 15px 0;
   padding: 15px 10px;
-  width: 50%;
+  width: 100%;
   outline: none;
   background-color: #f4fafe;
   border: 1px solid;
