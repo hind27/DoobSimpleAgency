@@ -15,6 +15,13 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/integration
+            emailjs.init('YOUR_USER_ID');
+        })();
+    </script>
 </head>
 <body>
 </head>
@@ -264,8 +271,8 @@
       </div>
       <div id="contact_form_div">
        
-        <form action="#" id="contact_form" class="contact-form contact-grid">
-         <div class="email"><input type="text" placeholder="Your email"></div>
+        <form action="#" onsubmit="return false" id="contact_form" class="contact-form contact-grid">
+         <div class="email"><input type="text" placeholder="Your email" id="email"></div>
          <div class="subject"><input type="text" placeholder="Subject"></div>
          <div class="message">
            <textarea placeholder=" Message here ....."></textarea></div>
