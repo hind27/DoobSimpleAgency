@@ -633,6 +633,9 @@ footer {
     font-size: 2.5em;
     margin-bottom: 15px;
   }
+  .content .textBox h1 {
+    font-size: 2.5em;
+  }
   .content .textBox {
     max-width: 100%;
   }
@@ -643,6 +646,14 @@ footer {
     max-width: 100%;
     justify-content: center;
     padding-top: 100px;
+  }
+  .portfolio .container .portfolio-container {
+  
+
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+   
+
   }
   .About_section .content .imgBox {
     max-width: 100%;
