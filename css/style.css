@@ -656,7 +656,7 @@ footer {
   .circle {
     clip-path: circle(400px at center bottom);
   }
-  .About_section ,.contact {
+  .About_section,.blog ,.contact {
     padding-top: 200px;
   }
   .contact .container {
