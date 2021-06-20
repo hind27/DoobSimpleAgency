@@ -37,11 +37,11 @@
       <div class="toggle" onclick="toggleMenu();"></div>
       <nav>
         <ul class="nav__links">
-          <li><a href="#" data-section=".about-us">Home.</a></li>
-          <li><a href="#" data-section=".skills">About us.</a></li>
-          <li><a href="#" data-section=".gallery">Portfilio.</a></li>
-          <li><a href="#" data-section=".timeline">Blog.</a></li>
-          <li><a href="#" data-section=".features">Contact us.</a></li>
+          <li><a href="#top" >Home.</a></li>
+            <li><a href="#about-us" >About us.</a></li>
+            <li><a href="#portfilio" >Portfilio.</a></li>
+            <li><a href="#blog" >Blog.</a></li>
+            <li><a href="#contact">Contact us.</a></li>
   
         </ul>
       </nav>
@@ -74,7 +74,7 @@
   
   <!-- End Landing Page -->
    <!-- Start Services -->
-  <section >
+  <section  id="about-us">
     <div class="services">
       <div class="container">
        
@@ -116,7 +116,7 @@
   </section>
   <!-- End Services -->
   <!-- start About -->
-  <section class="About_section">
+  <section class="About_section" id="About">
     <div class="container">
       <div class="content">
         <div class="imgBox">
@@ -293,11 +293,11 @@
         <h1>CREATIVITY ABOVE</h1>
         <nav>
           <ul class="footer_nav">
-            <li><a href="#" data-section=".about-us">Home.</a></li>
-            <li><a href="#" data-section=".skills">About us.</a></li>
-            <li><a href="#" data-section=".gallery">Portfilio.</a></li>
-            <li><a href="#" data-section=".timeline">Blog.</a></li>
-            <li><a href="#" data-section=".features">Contact us.</a></li>
+            <li><a href="#top" >Home.</a></li>
+            <li><a href="#about-us" >About us.</a></li>
+            <li><a href="#portfilio" >Portfilio.</a></li>
+            <li><a href="#blog" >Blog.</a></li>
+            <li><a href="#contact">Contact us.</a></li>
     
           </ul>
         </nav>
@@ -314,6 +314,15 @@
       
   </footer>
   <script src="js/master.js"></script>
+  <!--------smoot-scroll-------->
+  <script src="js/smooth-scroll.js"></script>
+  <script>
+    // All animations will take exactly 500ms
+    var scroll = new SmoothScroll('a[href*="#"]', {
+      speed: 500,
+      speedAsDuration: true
+    });
+  </script>
 </body>
 
 </html>
